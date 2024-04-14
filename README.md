@@ -1,21 +1,21 @@
-MIT License
+# File System Simulation in C 
 
-Copyright (c) 2024 Faiqa Kaleem
+## Overview
+This project simulates a basic file system using C programming. It allows the creation, deletion, reading, and writing of files through a command-line interface.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Features
+- Create files
+- Read files
+- Write to files
+- Delete files
+- List all files
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Getting Started
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### Prerequisites
+- GCC compiler installed on your system.
+
+### Compilation
+To compile the program, use the following GCC command:
+```bash
+gcc main.c filesystem.c -o file_system
