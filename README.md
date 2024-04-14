@@ -20,6 +20,6 @@ To compile the program, use the following GCC command:
 ```bash
 gcc main.c filesystem.c -o file_system
 
-#### Run
+**Run**
 To run the file system simulation, execute the compiled application:
 ./file_system 
